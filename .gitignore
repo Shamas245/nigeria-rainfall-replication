@@ -1,0 +1,22 @@
+# ── DATA FILES — NEVER UPLOAD ──────────────
+data/
+!data/.gitkeep
+
+# ── CSV FILES — NEVER UPLOAD ───────────────
+*.csv
+!output/tables/results_table.csv
+
+# ── PYTHON CACHE ────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# ── SYSTEM FILES ────────────────────────────
+.DS_Store
+Thumbs.db
+*.log
+
+# ── VS CODE ─────────────────────────────────
+.vscode/
