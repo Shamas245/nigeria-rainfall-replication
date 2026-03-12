@@ -1,0 +1,7 @@
+Model,Beta,Std_Error,P_value,Observations,Paper_Beta,Note,Significance,Effect_%
+Pooled OLS,-0.0615,0.019,0.0012,12531,N/A,Baseline — no FE,***,-6.2
+FE — Full Sample,0.1502,0.0233,0.0,12531,~-0.368,Main specification,***,15.0
+FE — Asset Poor,0.1554,0.034,0.0,6315,~-0.600,Bottom 50% by assets,***,15.5
+FE — Asset Nonpoor,0.1443,0.0317,0.0,6216,~-0.190,Top 50% by assets,***,14.4
+FE — North Nigeria,0.0873,0.0417,0.0362,6485,larger,Zones 1+2+3,**,8.7
+FE — South Nigeria,0.1464,0.0297,0.0,6046,smaller,Zones 4+5+6,***,14.6
